@@ -46,11 +46,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  flex-shrink: 0;
 }
 
 button.continue {
@@ -63,4 +65,24 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+/* solution */
+.modal{
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+div.modal2{
+  display: flex;
+  gap: 8px;
+  /*flex: 1 1 auto;*/
+  justify-content:flex-start ; 
+}
+.header{
+  margin-top: 0;
+  margin-bottom: auto;
+}
+.text{
+  padding: 10px 0;
+  flex-shrink: 0;
 }
